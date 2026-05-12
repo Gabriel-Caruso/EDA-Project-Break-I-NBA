@@ -1,29 +1,29 @@
 # EDA Project — Break I NBA
 
 Análisis exploratorio de datos sobre la evolución del juego en la NBA,
-centrado en la desaparición del tiro de media distancia y los jugadores
-que desafían la tendencia.
+centrado en la desaparición de los lanzamientos de media distancia y los jugadores
+que desafían esta tendencia.
 
-## Narrativa
+## Formato
 
-**Inicio:** Comparativa visual de tiros en la NBA en 2000 y 2025-26. "El mid-range ha muerto"
+**Introducción:** Comparativa visual de tiros en la NBA en 2000 y 2025-26. "El mid-range ha muerto"
 
-**Rama Ramiro:** Por qué desapareció el mid-range. Datos, equipos y modas.
+**Rama Carlos:** Por qué desapareció el mid-range. Datos, equipos y modas.
 
-**Rama Carlos:** Los outliers. Jugadores, equipos y más. Quién se mantiene fuera de esta moda.
+**Rama Ramiro:** Los outliers. Quién se mantiene fuera de este sistema nuevo de lanzamientos. Jugadores, equipos y más.
 
 **Conclusión:** Conclusión de ambos estudios.
 
 ## Estructura
 
 - **data/raw** — Datos originales de la NBA API
-- **data/processed** — Datos limpios y listos para analizar
-- **notebooks/ramiro** — Análisis del sistema y el por qué
-- **notebooks/carlos** — Análisis de outliers
+- **data/processed** — Datos limpios
+- **notebooks/carlos** — Análisis del sistema/moda del lanzamiento y el por qué
+- **notebooks/ramiro** — Análisis de outliers
 - **notebooks/general** — Notebooks conjuntos
 - **src** — Funciones compartidas
 - **reports/img** — Visualizaciones exportadas
-- **docs** — Web y materiales de presentación
+- **docs** — Presentación y material de presentación
 
 ## Setup
 
@@ -33,5 +33,5 @@ pip install -r requirements.txt
 
 ## Equipo
 
-- **Ramiro** — `feature/tendencias-de-tiro`
-- **Carlos** — `feature/outliers`
+- **Carlos** — `feature/tendencias-de-lanzamiento`
+- **Ramiro** — `feature/outliers`
